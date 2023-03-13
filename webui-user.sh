@@ -10,7 +10,7 @@
 #clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-#export COMMANDLINE_ARGS=""
+export COMMANDLINE_ARGS="--upcast-sampling --no-half-vae --use-cpu interrogate --skip-torch-cuda-test --no-half --ckpt $PWD/model/models_downloaded/realisticVisionV13_v13.ckpt"
 
 # python3 executable
 #python_cmd="python3"
